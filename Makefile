@@ -2352,7 +2352,7 @@ obj-$(CONFIG_RTL8812AU) := $(MODULE_NAME).o
 else
 $(warning bbbbbbbbbbbbbbbbbbbb )
 $(warning $(MODULE_NAME))
-obj-m := rtl$(MODULE_NAME)2.o
+obj-m := $(MODULE_NAME).o
 
 #export CONFIG_RTL8812AU = m
 
