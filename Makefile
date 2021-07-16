@@ -2268,7 +2268,6 @@ endif
 ifeq ($(CONFIG_RTL8814B), y)
 include $(src)/rtl8814b.mk
 endif
-endif
 
 rtk_core :=	core/rtw_cmd.o \
 		core/rtw_security.o \
